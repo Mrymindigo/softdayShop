@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<!-- This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
@@ -33,4 +33,54 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details. -->
+
+
+# SoftDay
+
+SoftDay is a modern clothing e-commerce built with Next.js, React and TypeScript.
+
+## Tech Stack
+
+- Next.js (App Router)
+- React
+- TypeScript
+- Tailwind CSS
+- Swiper.js
+
+## Current Features
+
+### Layout
+- Responsive Header
+- Desktop Navigation
+- Mobile Hamburger Menu
+- Hero Section
+- Category Slider
+
+### Routing
+- Dynamic Category Pages
+- Category Navigation
+
+### UI
+- Persian (RTL)
+- Custom Theme Colors
+- Custom Typography
+- Responsive Design
+
+## Project Structure
+
+src/
+├── app/
+├── components/
+├── data/
+├── types/
+└── styles/
+
+## Upcoming
+
+- Product Listing
+- Product Details
+- Shopping Cart
+- Search
+- Wishlist
+- Authentication
