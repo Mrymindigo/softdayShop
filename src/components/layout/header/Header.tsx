@@ -12,12 +12,7 @@ import { IoMenuOutline } from 'react-icons/io5'
 export default function Header() {
    const [isMenuOpen, setIsMenuOpen] = useState(false)
   return (
-    <header className=' bg-white sticky
-    top-0
-    z-50
-    transition-all
-    duration-300
-'>
+    <header className=' bg-white sticky top-0 z-50 transition-all duration-300'>
       <Container>
         <div className='flex justify-between items-center h-20'>
           <div className='grid grid-cols-3 items-center h-full md:hidden'>

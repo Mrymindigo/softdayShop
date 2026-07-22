@@ -8,7 +8,7 @@ import Container from '../layout/Container';
 
 function Category() {
   return (
-    <div className='py-8' id='category'>
+    <div className='py-8 bg-[var(--secondary-beige)]' id='category'>
       <Container>
         <Title value='سافت کالکشن' />
         <CategorySwiper />

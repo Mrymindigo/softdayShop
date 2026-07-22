@@ -37,7 +37,6 @@ function Hero() {
           priority
           fill
           sizes="100vw"
-          quality={100}
           className="object-cover" />
       </div>
 

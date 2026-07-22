@@ -1,4 +1,4 @@
-
+"use client"
 import React from 'react'
 import { IoChevronDown } from "react-icons/io5"
 import Link from 'next/link'
@@ -24,9 +24,7 @@ function Navbar() {
             <span>{item.name}</span>
           </Link>
           <span
-            className='pointer-events-none absolute bottom-0 left-1/2 h-[2px] w-0 -translate-x-1/2
-            bg-[var(--color-secondary-text)] transition-all duration-300 ease-out
-            group-hover:w-full'
+            className='pointer-events-none absolute bottom-0 left-1/2 h-[2px] w-0 -translate-x-1/2 bg-[var(--color-secondary-text)] transition-all duration-300 ease-out group-hover:w-full'
           />
         </div>
       ))}
